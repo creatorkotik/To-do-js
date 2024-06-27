@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./nall.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="todo">
+      <div class="container">
+        <div class="todo__top">
+          <input type="text" class="todo__input" placeholder="type todo..." />
+          <button class="todo__btn">add</button>
+        </div>
+        <div class="todo__body"></div>
+      </div>
+      <div class="container container-info">
+        <p class="info__text">Completed:</p>
+        <div class="info__value">
+          <span class="complete-count">0</span>
+          /
+          <span class="all-count">0</span>
+        </div>
+      </div>
+    </div>
+    <template class="todo__template"
+      ><div class="todo__item">
+        <p class="todo__text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+        <div>
+          <button class="todo__delete">
+            <img src="./trash.png" alt="" />
+          </button>
+          <button class="todo__complete">
+            <img src="./completed.png" alt="" />
+          </button>
+        </div></div
+    ></template>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+.todo {
+  background-color: rgb(96, 96, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container {
+  max-width: 800px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.todo__top {
+  display: flex;
+  gap: 25px;
+}
+
+.todo__input {
+  width: 100%;
+  border: 1px solid rgb(96, 96, 242);
+  border-radius: 10px;
+  padding: 15px 10px;
+  font-size: 18px;
+}
+
+.todo__btn {
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(96, 96, 242);
+  color: white;
+  font-weight: 800;
+  transition: all 0.3s ease 0s;
+}
+
+.todo__btn:hover {
+  background-color: rgb(142, 142, 244);
+}
+
+.todo__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.todo__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(172, 169, 169);
+  border-radius: 10px;
+  padding: 5px 10px;
+  gap: 25px;
+  transition: all 0.3s ease 0s;
+}
+
+.todo__item:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.todo__item-complete {
+  background-color: rgb(115, 167, 156);
+}
+
+.todo__text {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.todo__delete,
+.todo__complete {
+  background-color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.todo__delete:hover {
+  background-color: rgb(231, 105, 105);
+}
+
+.todo__complete:hover {
+  background-color: rgb(3, 84, 3);
+}
+
+.todo__delete img,
+.todo__complete img {
+  width: 25px;
+  height: 25px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info__text {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.info__value {
+  font-size: 25px;
+  font-weight: 800;
+}
